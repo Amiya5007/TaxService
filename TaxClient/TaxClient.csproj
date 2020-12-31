@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Enities\Enities.csproj" />
+    <ProjectReference Include="..\TaxCalculator\TaxCalculator.csproj" />
+  </ItemGroup>
+
+</Project>
